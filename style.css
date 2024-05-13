@@ -16,6 +16,7 @@ body {
 }
 
 .mainblock {
+    border: 15px;
     height: 30%;
 }
 
