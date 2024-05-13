@@ -4,7 +4,8 @@
 }
 
 body {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     margin: 0;
     background-color: hotpink;    
 }
