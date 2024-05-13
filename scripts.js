@@ -1,4 +1,6 @@
+b = 0;
+
 function first(){
     const a = new Date();
-    document.getElementById("mainblock").innerHTML = a.getMonth() + 1;
+    document.getElementById("mainblock").innerHTML = b + 1;
 }
