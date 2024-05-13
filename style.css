@@ -1,6 +1,13 @@
-body{margin: 0}
-div{color: black;
-    height: 100%;
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: hotpink;    
+}
+
+div {color: black;
     overflow-x: hidden;
     text-align: center;
-    background-color: dimgray}
+}
