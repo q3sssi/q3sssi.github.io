@@ -1,5 +1,6 @@
 body{margin: 0}
 div{color: black;
-    display: block;
+    height: 100%;
+    overflow-x: hidden;
     text-align: center;
     background-color: dimgray}
