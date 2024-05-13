@@ -10,7 +10,6 @@ body {
 }
 
 .main_container {
-    display: flex;
     overflow-x: hidden;
     text-align: center;
 }
