@@ -5,9 +5,9 @@ function plus(){
 
     current = document.getElementById("menu");
     if(current.style.display == 'none'){
-        current.style.display = display;
+        current.style.display = 'display';
     }
     else{
-        current.style.display = none;
+        current.style.display = 'none';
     }
 }
