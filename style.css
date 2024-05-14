@@ -25,12 +25,14 @@ div {
 }
 
 .button {
+    align-content: center;
+    font-size: 10vw;
     position: fixed;
-    bottom: -0.2vh;
-    height: 12vw;
-    width: 100vw;
-    color: hotpink;
-    margin: auto;
+    bottom: 2vh;
+    height: 15vw;
+    width: 90vw;
+    margin: 0 0 0 5vw;
     border-radius: 25px;
+    color: hotpink;
     background-color: azure;
 }
