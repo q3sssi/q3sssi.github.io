@@ -5,7 +5,7 @@ function plus(){
 
     current = document.getElementById("menu");
     if(current.style.display == 'none'){
-        current.style.display = 'display';
+        current.style.display = 'flex';
     }
     else{
         current.style.display = 'none';
