@@ -1,6 +1,5 @@
 * {
     font-size: 64px;
-    box-sizing: border-box;
 }
 
 body {
@@ -10,9 +9,9 @@ body {
     background-color: hotpink;    
 }
 
-.main_container {
-    overflow-x: hidden;
-    text-align: center;
+.all {
+    position: relative;
+    overflow: hidden;
 }
 
 .mainblock {
