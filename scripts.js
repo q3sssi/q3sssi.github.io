@@ -1,5 +1,5 @@
-function first(){
+var b = 0;
+function plus(){
     const a = new Date();
-    var b = 0;
     document.getElementById("mainblock").innerHTML = b++;
 }
