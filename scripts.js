@@ -3,11 +3,11 @@ function plus(){
     const a = new Date();
     document.getElementById("mainblock").innerHTML = b++;
 
-    current = document.getElementById("menu").style.display;
-    if(current == none){
-        document.getElementById("menu").style.display = display;
+    current = document.getElementById("menu");
+    if(current.style.display == 'none'){
+        current.style.display = display;
     }
     else{
-        document.getElementById("menu").style.display = none;
+        current.style.display = none;
     }
 }
