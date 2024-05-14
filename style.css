@@ -11,6 +11,7 @@ body {
 }
 
 div {
+    text-align: center;
     display: block;
 }
 
@@ -24,6 +25,10 @@ div {
 }
 
 .button {
+    position: fixed;
+    bottom: -0.2vh;
+    height: 12vw;
+    width: 100vw;
     color: hotpink;
     margin: auto;
     border-radius: 25px;
