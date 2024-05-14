@@ -10,6 +10,10 @@ body {
     background-color: hotpink;    
 }
 
+div {
+    display: block;
+}
+
 .all {
     position: relative;
     overflow: hidden;
