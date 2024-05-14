@@ -4,5 +4,10 @@ function plus(){
     document.getElementById("mainblock").innerHTML = b++;
 
     current = document.getElementById("menu").style.display;
-    if(current == 'none'){current = 'flex';} else{current = 'none';}
+    if(current == 'none'){
+        current = 'flex';
+    }
+    else{
+        current = 'none';
+    }
 }
