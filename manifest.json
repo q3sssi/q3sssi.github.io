@@ -1,17 +1,14 @@
 {
   "name": "q3",
   "short_name": "q3",
-  "start_url": "/index.html",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#000000",
-  "theme_color": "#000000",
-  "version": "2.1.1",
   "icons": [
     {
-      "src": "icon.png",
+      "src": "favicon.ico",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     }
   ]
 }
