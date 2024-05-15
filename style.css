@@ -41,6 +41,7 @@ div {
     border-radius: 5vw;
     cursor: pointer;
     text-decoration: none;
+    user-select: none;
     color: hotpink;
     background-color: azure;
 }
