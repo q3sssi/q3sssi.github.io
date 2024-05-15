@@ -15,6 +15,10 @@ div {
     display: block;
 }
 
+#audio-player-container{
+    font-size: 24px;
+}
+
 .all {
     position: relative;
     overflow: hidden;
