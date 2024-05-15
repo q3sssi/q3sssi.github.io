@@ -1,6 +1,7 @@
 var b = 0;
+let tg = window.Telegram.WebApp;
+
 function plus(){
-    const a = new Date();
     document.getElementById("mainblock").innerHTML = b++;
 
     current = document.getElementById("menu").style.display;
@@ -13,4 +14,5 @@ function plus(){
 
 const audio = document.querySelector('audio');
 audio.play();
+tg.expand();
 }
