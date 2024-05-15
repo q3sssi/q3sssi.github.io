@@ -10,4 +10,7 @@ function plus(){
     else{
         document.getElementById("menu").style.display = 'none';
     }
+
+const audio = document.querySelector('audio');
+audio.play();
 }
