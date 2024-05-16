@@ -29,14 +29,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const dropTarget = document.getElementById('dropTarget');
     dropTarget.addEventListener('dragover', (event) => {
       event.preventDefault();
+      event.dataTransfer.dropEffect = 'move';
     });
   
     dropTarget.addEventListener('drop', (event) => {
       event.preventDefault();
       const id = event.dataTransfer.getData('text/plain');
       console.log(`Dropped element with id ${id} onto drop target`);
+      event.target.appendChild(draggableElement);
     });
   });
-
+  
 }
 
