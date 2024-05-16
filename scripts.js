@@ -12,8 +12,6 @@ function plus(){
         document.getElementById("menu").style.display = 'none';
     }
 
-const audio = document.querySelector('audio');
-audio.play();
 tg.expand();
 
   
