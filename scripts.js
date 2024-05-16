@@ -22,7 +22,7 @@ tg.expand();
 
 document.addEventListener('DOMContentLoaded', () => {
     $( function() {
-        $( "#draggable" ).draggable({ revert: "valid" });
+        $( "#draggable" ).draggable({ revert: "invalid" });
      
         $( "#droppable" ).droppable({
           classes: {
