@@ -15,11 +15,11 @@ function plus(){
 const audio = document.querySelector('audio');
 audio.play();
 tg.expand();
+
   
 }
 
-elmnt = document.getElementById("draggableElement");
-dragElement(elmnt);
+
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -60,4 +60,7 @@ function dragElement(elmnt) {
     document.onmouseup = null;
     document.onmousemove = null;
   }
+  
+dragElement(document.getElementById("draggableElement"));
+
 }
