@@ -17,6 +17,15 @@ audio.play();
 tg.expand();
 }
 
+document.addEventListener('DOMContentLoaded', () => {
+    const draggableElement = document.getElementById('draggableElement');
+    draggableElement.addEventListener('dragstart', (event) => {
+      event.dataTransfer.setData('text/plain', '');
+    });
+    draggableElement.addEventListener('dragend', (event) => {
+      console.log('Dragging ended');
+    });
+  });
 
 const draggableElement = document.getElementById('draggableElement');
 
