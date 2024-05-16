@@ -22,29 +22,19 @@ document.addEventListener('DOMContentLoaded', () => {
     draggableElement.addEventListener('dragstart', (event) => {
       event.dataTransfer.setData('text/plain', '');
     });
+  
     draggableElement.addEventListener('dragend', (event) => {
       console.log('Dragging ended');
     });
+  
+    const dropTarget = document.getElementById('dropTarget');
+    dropTarget.addEventListener('dragover', (event) => {
+      event.preventDefault();
+    });
+  
+    dropTarget.addEventListener('drop', (event) => {
+      event.preventDefault();
+      const id = event.dataTransfer.getData('text/plain');
+      console.log(`Dropped element with id ${id} onto drop target`);
+    });
   });
-
-const draggableElement = document.getElementById('draggableElement');
-
-draggableElement.addEventListener('dragstart', (event) => {
-  event.dataTransfer.setData('text/plain', '');
-});
-
-draggableElement.addEventListener('dragend', (event) => {
-  console.log('Dragging ended');
-});
-
-const dropTarget = document.getElementById('dropTarget');
-
-dropTarget.addEventListener('dragover', (event) => {
-  event.preventDefault();
-});
-
-dropTarget.addEventListener('drop', (event) => {
-  event.preventDefault();
-  const id = event.dataTransfer.getData('text/plain');
-  console.log(`Dropped element with id ${id} onto drop target`);
-});
