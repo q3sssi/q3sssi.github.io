@@ -21,10 +21,11 @@ tg.expand();
 
 
 
+dragElement(document.getElementById("draggableElement"));
 function dragElement(elmnt) {
     var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
     elmnt.onmousedown = dragMouseDown;
-    
+
   function dragMouseDown(e) {
     e = e || window.event;
     e.preventDefault();
@@ -54,7 +55,5 @@ function dragElement(elmnt) {
     document.onmouseup = null;
     document.onmousemove = null;
   }
-  
-dragElement(document.getElementById("draggableElement"));
 
 }
