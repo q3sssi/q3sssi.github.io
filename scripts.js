@@ -24,9 +24,9 @@ dragElement(document.getElementById("draggableElement"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-  if (document.getElementById("draggableElement")) {
+  if (document.getElementById(elmnt.id)) {
     // if present, the header is where you move the DIV from:
-    document.getElementById("draggableElement").onmousedown = dragMouseDown;
+    document.getElementById(elmnt.id).onmousedown = dragMouseDown;
   } else {
     // otherwise, move the DIV from anywhere inside the DIV:
     elmnt.onmousedown = dragMouseDown;
