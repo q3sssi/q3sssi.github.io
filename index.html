@@ -8,23 +8,25 @@
     <title>q3sssi</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="manifest" href="manifest.json">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
 </head>
 <body>
     <div class="all">
         <div class="mainblock" id="mainblock">13</div>
         <div class="menu" id="menu" style="display: none;">some content</div>
-        <div id="draggableElement">Drag me!</div>
+
+        <div id="draggable" class="ui-widget-content">
+        <p>I revert when I'm dropped</p>
+        </div>
         
-        <div id="audio-player-container">
-            <audio src="second_bitt.mp3" preload="metadata" loop></audio>
-            <button id="play-icon"></button>
-            <span id="current-time" class="time">0:00</span>
-            <input type="range" id="seek-slider" max="100" value="0">
-            <span id="duration" class="time">0:00</span>
-            <output id="volume-output">100</output>
-            <input type="range" id="volume-slider" max="100" value="100">
-            <button id="mute-icon"></button>
-          </div>
+        
+        <div id="droppable" class="ui-widget-header">
+            <p>Drop me here</p>
+        </div>
+
+
+
         <div class="button" onclick="plus()">menu<div>
     </div>
 </body>

@@ -53,19 +53,20 @@ div {
 }
 
 
-#audio-player-container, span, input, output, button {
-    text-align: left;
-    font-size: 24px;
-    display:block;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
 
-#draggableElement{
+#draggable{
+
+    width: 100px; 
+    height: 100px; 
+    padding: 0.5em; 
+    float: left; 
+    margin: 10px 10px 10px 0;
+
     position: absolute;
     background-color: #f1f1f1;
     border: 1px solid #d3d3d3;
     text-align: center;
     cursor: move;
 }
+
+#droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
