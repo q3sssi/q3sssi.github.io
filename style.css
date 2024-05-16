@@ -38,8 +38,8 @@ div {
     align-content: center;
     font-size: 10vw;
     position: fixed;
-    bottom: 2vw;
-    height: 15vw;
+    bottom: 1vh;
+    height: 8vh;
     width: 90vw;
     margin: 0 0 0 5vw;
     border-radius: 5vw;
@@ -52,8 +52,6 @@ div {
     background-color: azure;
 }
 
-
-
 #draggable{
     background-color: aqua;
     width: 100px; 
@@ -63,11 +61,14 @@ div {
     margin: 10px 10px 10px 0;
 }
 
+.all{ 
+    background-color: bisque;
+    width: 100vw; 
+    height: 90vh;
+}
+
 #droppable { 
-    background-color: aqua;
-    width: 150px; 
-    height: 150px;
-    padding: 0.5em;
-    float: left;
-    margin: 10px; 
+    background-color:  burlywood;
+    width: 100vw; 
+    height: 60vh;
 }
