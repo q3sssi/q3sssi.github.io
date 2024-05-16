@@ -15,7 +15,6 @@ function plus(){
 const audio = document.querySelector('audio');
 audio.play();
 tg.expand();
-}
 
 document.addEventListener('DOMContentLoaded', () => {
     const draggableElement = document.getElementById('draggableElement');
@@ -38,3 +37,6 @@ document.addEventListener('DOMContentLoaded', () => {
       console.log(`Dropped element with id ${id} onto drop target`);
     });
   });
+
+}
+
