@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     $( document ).ready(function() {
-        $( "#draggable" ).draggable({
+        $( ".ui-widget-content" ).draggable({
             scroll: false,
             revert: 'invalid',
             stack: false,
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
         $( "#droppable" ).droppable({
-            accept: "#draggable",
+            accept: ".ui-widget-content",
             drop: function( event, ui ) {
                 $( this ).addClass( "ui-state-highlight" ).find( "p" );
                 snapToMiddle(ui.draggable,$(this));
