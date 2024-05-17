@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         $( "#droppable" ).droppable({
             accept: ".ui-widget-content",
-            deactivate: ".ui-widget-content",
             drop: function( event, ui ) {
                 $( this ).addClass( "ui-state-highlight" ).find( "p" );
 
