@@ -52,7 +52,7 @@ div {
     background-color: azure;
 }
 
-#draggable{
+.ui-widget-content{
     background-color: aqua;
     width: 100px; 
     height: 100px; 
