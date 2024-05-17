@@ -53,11 +53,11 @@ div {
 }
 
 .ui-widget-content{
+    display: inline-block;
     background-color: aqua;
     width: 100px; 
     height: 100px; 
-    padding: 0.5em; 
-    float: left; 
+    padding: 0.5em;
     margin: 10px 10px 10px 0;
 }
 
@@ -75,5 +75,5 @@ div {
 }
 
 .cards_zone{
-    align-items: center;
+    margin: auto;
 }
