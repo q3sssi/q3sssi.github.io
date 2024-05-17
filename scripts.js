@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
         $( ".ui-widget-content" ).draggable({
             scroll: false,
             revert: 'invalid',
-            stack: false,
+            stack: ".cards_zone",
             create: function(){$(this).data('position',$(this).position())},
             cursor: "pointer",
             start:function(){$(this).stop(true,true)},
