@@ -71,6 +71,7 @@ div {
     background-color:  burlywood;
     width: 100vw; 
     height: 60vh;
+    align-items: center;
 }
 
 .cards_zone{
