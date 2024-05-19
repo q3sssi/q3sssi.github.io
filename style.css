@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'sans-serif', 'Arial';
     font-weight: 700;
     margin: 0;
     background-color: hotpink;    
@@ -13,10 +13,6 @@ body {
 div {
     text-align: center;
     display: block;
-}
-
-#audio-player-container{
-    font-size: 24px;
 }
 
 .all {
@@ -58,10 +54,8 @@ div {
 .ui-widget-content{
     display: inline-block;
     background-color: aqua;
-    width: 100px; 
-    height: 100px; 
-    padding: 0.5em;
-    margin: 10px 10px 10px 0;
+    width: 70px; 
+    height: 100px;
 }
 
 .all{ 
