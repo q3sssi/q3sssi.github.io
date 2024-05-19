@@ -17,7 +17,10 @@ document.addEventListener('DOMContentLoaded', () => {
             accept: ".ui-widget-content",
             drop: function( event, ui ) {
                 $( this ).addClass( "ui-state-highlight" ).find( "p" );
-
+                var $list = $( "ul", $(".droparea") ).length ?
+                $( "ul", $(".droparea") ) :
+                $( "<ul class='gallery ui-helper-reset'/>" ).appendTo( $(".droparea") );
+              
                 snapToMiddle(ui.draggable,$(this));
             }
         });
