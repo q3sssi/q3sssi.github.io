@@ -8,10 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
             create: function(){$(this).data('position',$(this).position())},
             cursor: "pointer",
             start:function(){$(this).stop(true,true)},
-            drag: function(event, ui)
-            {
-                $( ".droparea" ).removeClass( "ui-state-highlight" );
-            }
+            
         });
         $( "#droppable" ).droppable({
             accept: ".ui-widget-content",
