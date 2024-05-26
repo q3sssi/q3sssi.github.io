@@ -30,10 +30,12 @@ div {
 .ui-widget-content{
     align-content: center;
     display: inline-block;
-    background-color: saddlebrown;
-    width: 70px; 
-    height: 100px;
-    border-radius: 5vw;
+    width: 75px; 
+    height: 110px;
+    background-image: url(active.svg);
+    background-origin: border-box;
+    background-position: 75px 110px;
+    background-size:  1000px;
 }
 
 .all{ 

@@ -28,3 +28,38 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+const fullWidth = 4576
+const fullHeight = 2048
+const cardWidth = 352
+const cardHeight = 512
+  
+
+function Card({
+    card: { cardColor, cardType },
+    chosenColor,
+    type
+  }) {
+    const { cardScale } = useContext(DimensionContext)
+  
+    const scale = cardScale + (type === "main" ? 0.1 : 0)
+  
+    const typeIndex = cardTypeArray.indexOf(cardType) + (chosenColor ? 2 : 0)
+    const colorIndex = cardColorArray.indexOf(chosenColor ?? cardColor)
+  
+    const xPos = -typeIndex * cardWidth
+    const yPos = -colorIndex * cardHeight
+  
+    return (
+      <div
+        style={{
+          backgroundImage: "url(active.svg)",
+          backgroundOrigin: "border-box",
+          backgroundPosition: `${xPos * scale}px ${yPos * scale}px`,
+          backgroundSize: `${fullWidth * scale}px ${fullHeight * scale}px`,
+          height: `${cardHeight * scale}px`,
+          width: `${cardWidth * scale}px`
+        }}
+      />
+    )
+  }
+
