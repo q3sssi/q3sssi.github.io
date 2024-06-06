@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById("usercard").appendChild(profName);
 
     let img = document.createElement('img');
-    img.setAttribute("src", `${window.Telegram.WebApp.initDataUnsafe.user.photo_url}`)
+    img.setAttribute("src", `${tg.initDataUnsafe.user.photo_url}`)
         
     elem.setAttribute("height", "768");
     elem.setAttribute("width", "1024");
