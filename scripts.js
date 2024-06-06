@@ -24,8 +24,8 @@ document.addEventListener('DOMContentLoaded', () => {
         var leftMove= target.position().left - dragger.data('position').left + (target.outerWidth(true) - dragger.outerWidth(true)) / 2;
         dragger.animate({top:topMove,left:leftMove},{duration:200,easing:'linear'});
     }
-});
 
+    
 let tg = window.Telegram.WebApp;
 let usercard = document.getElementById("usercard"); //получаем блок usercard 
 let profName = document.createElement('p'); //создаем параграф
@@ -36,3 +36,5 @@ ${tg.initDataUnsafe.user.id}
 ${tg.initDataUnsafe.user.language_code}`;
 //выдем имя, "фамилию", через тире username и код языка
 usercard.appendChild(profName); //добавляем 
+
+});
