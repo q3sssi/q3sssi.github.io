@@ -33,8 +33,9 @@ document.addEventListener('DOMContentLoaded', () => {
     ${tg.initDataUnsafe.user.last_name}
     ${tg.initDataUnsafe.user.username} 
     ${tg.initDataUnsafe.user.id}
-    ${tg.initDataUnsafe.user.language_code}`;
+    ${tg.initDataUnsafe.user.language_code};
+    ${tg.initDataUnsafe.user.photo_url}`;
     //выдем имя, "фамилию", через тире username и код языка
-    usercard.appendChild(profName); //добавляем 
+    document.getElementById("usercard").appendChild(profName);
 
 });
