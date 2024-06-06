@@ -44,6 +44,6 @@ document.addEventListener('DOMContentLoaded', () => {
     elem.setAttribute("height", "768");
     elem.setAttribute("width", "1024");
     elem.setAttribute("alt", "Flower");
-    document.getElementById("usercard").appendChild("img");
+    document.getElementById("usercard").appendChild(img);
 
 });
