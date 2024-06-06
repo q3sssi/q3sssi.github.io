@@ -38,4 +38,12 @@ document.addEventListener('DOMContentLoaded', () => {
     //выдем имя, "фамилию", через тире username и код языка
     document.getElementById("usercard").appendChild(profName);
 
+    let img = document.createElement('img');
+    img.setAttribute("src", `${window.Telegram.WebApp.initDataUnsafe.user.photo_url}`)
+        
+    elem.setAttribute("height", "768");
+    elem.setAttribute("width", "1024");
+    elem.setAttribute("alt", "Flower");
+    document.getElementById("usercard").appendChild("img");
+
 });
