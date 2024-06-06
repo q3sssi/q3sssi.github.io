@@ -41,9 +41,9 @@ document.addEventListener('DOMContentLoaded', () => {
     let img = document.createElement('img');
     img.src = `${tg.initDataUnsafe.user.photo_url}`;
         
-    elem.setAttribute("height", "768");
-    elem.setAttribute("width", "1024");
-    elem.setAttribute("alt", "Flower");
+    img.setAttribute("height", "768");
+    img.setAttribute("width", "1024");
+    img.setAttribute("alt", "Flower");
     document.getElementById("usercard").appendChild(img);
 
 });
