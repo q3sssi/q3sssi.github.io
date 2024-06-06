@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById("usercard").appendChild(profName);
 
     let img = document.createElement('img');
-    img.src = `${tg.initDataUnsafe.user.photo_url}`;
+    img.src = tg.initDataUnsafe.user.photo_url;
         
     img.setAttribute("height", "768");
     img.setAttribute("width", "1024");
