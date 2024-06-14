@@ -69,7 +69,8 @@ ul {
 }
 
 .inputfield {
-    width: auto;
-    height: auto;
+    width: 100vw;
+    height: 20vw;
+    bottom: -0.2vh;
     position: fixed;
 }
