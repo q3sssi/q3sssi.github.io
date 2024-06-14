@@ -64,10 +64,12 @@ ul {
 }
 
 .input {
-    width: auto;
-    height: auto;
-    
-    position: fixed;
     border: 0 0 0 0;
     background-color: peru;
+}
+
+.inputfield {
+    width: auto;
+    height: auto;
+    position: fixed;
 }
