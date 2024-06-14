@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById("usercard").appendChild(img);
 
 
-    function chat_line(){
+    function chatLine(){
         let data = document.getElementById('data');
         let chat_line = document.createElement('p');
         chat_line.innerText = data;
