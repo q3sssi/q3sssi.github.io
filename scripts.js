@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     function chat_line(){
-        let data = document.getElementById("data");
+        let data = document.getElementById('data');
         let chat_line = document.createElement('p');
         chat_line.innerText = data;
         document.getElementById('chat').appendChild(chat_line);
