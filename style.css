@@ -60,17 +60,19 @@ ul {
 }
 
 .button {
+    height: 50vh;
     background-color: antiquewhite;
 }
 
 .input {
+    height: 50vh;
     border: 0 0 0 0;
     background-color: peru;
 }
 
 .inputfield {
     width: 100vw;
-    height: 20vw;
+    height: 12vw;
     bottom: -0.2vh;
     position: fixed;
 }
