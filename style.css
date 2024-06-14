@@ -64,5 +64,6 @@ ul {
 }
 
 .input {
+    border: 0 0 0 0;
     background-color: blue;
 }
