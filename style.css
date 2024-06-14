@@ -27,7 +27,7 @@ div {
     width: 100vw;
 }
 
-.ui-widget-content{
+.ui-widget-content {
     align-content: center;
     display: inline-block;
     width: 105px; 
@@ -38,7 +38,7 @@ div {
     background-size:  1400px;
 }
 
-.all{ 
+.all { 
     background-color: bisque;
     width: 100vw; 
     height: 100vh;
@@ -51,10 +51,18 @@ div {
     align-items: center;
 }
 
-.cards_zone{
+.cards_zone {
     margin: auto;
 }
 
-ul{
+ul {
     padding: 0;
+}
+
+.button {
+    background-color: antiquewhite;
+}
+
+.input {
+    background-color: blue;
 }
